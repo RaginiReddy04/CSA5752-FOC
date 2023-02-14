@@ -1,0 +1,15 @@
+echo "enter a value"
+read a
+echo "enter b value"
+read b
+echo "enter c value"
+read c
+if [ $a -gt $c ] && [ $a -gt $c ]
+then
+        echo "a is biggest"
+elif [ $b -gt $a ] && [ $b -gt $c ]
+then
+        echo "b is biggest"
+else
+        echo "c is biggest"
+fi
