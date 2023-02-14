@@ -1,0 +1,4 @@
+echo "enter a string"
+read str
+length=`expr length "$str"`
+echo "enter a length of $str  is $length"
